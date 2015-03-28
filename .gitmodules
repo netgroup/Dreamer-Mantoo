@@ -4,3 +4,6 @@
 [submodule "Dreamer-Topology-and-Service-Validator"]
 	path = Dreamer-Topology-and-Service-Validator
 	url = https://github.com/netgroup/Dreamer-Topology-and-Service-Validator.git
+[submodule "Dreamer-Experiment-Handler"]
+	path = Dreamer-Experiment-Handler
+	url = https://github.com/netgroup/Dreamer-Experiment-Handler.git
