@@ -6,6 +6,7 @@ Dreamer-Mantoo
 Full documentation for the project is available at 
 
 ---------------------------
+
 Overview
 -----------
 **Mantoo** is a set of Open Source tools meant to support
@@ -25,6 +26,8 @@ $ cd Topology3D
 $ git submodule init
 $ git submodule update
 ```
-If you pass ```--recursive``` to the ```git clone``` command, it will automatically initialize and update each submodule in the repository.
+If you pass ```--recursive``` to the ```git clone``` command, it will automatically initialize and update each submodule in the repository:
 
-------------------------------
+```sh
+$ git clone --recursive https://github.com/netgroup/Dreamer-Mantoo.git
+```
