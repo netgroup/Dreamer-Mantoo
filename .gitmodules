@@ -1,7 +1,6 @@
 [submodule "Topology3D"]
 	path = Topology3D
-	url = https://github.com/netgroup/Dreamer-Topology-Designer
-	branch = stable
+	url = https://github.com/netgroup/Dreamer-Topology-Designer.git
 [submodule "Dreamer-Topology-and-Service-Validator"]
 	path = Dreamer-Topology-and-Service-Validator
 	url = https://github.com/netgroup/Dreamer-Topology-and-Service-Validator.git
