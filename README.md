@@ -3,14 +3,12 @@
 Dreamer-Mantoo
 ===================
 
-Full documentation for the project is available at 
-
----------------------------
-
 Overview
 -----------
 **Mantoo** is a set of Open Source tools meant to support
 SDN experiments over emulators and distributed testbeds. 
+
+Addtional documentation is available at http://netgroup.uniroma2.it/OSHI/
 
 ----------------------------------
 Getting Started
