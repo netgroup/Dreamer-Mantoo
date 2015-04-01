@@ -5,7 +5,7 @@ Dreamer-Mantoo
 
 Overview
 -----------
-**Mantoo** is a set of Open Source tools meant to support SDN experiments over Mininet emulator and distributed testbeds.
+**Mantoo** is a set of Open Source tools meant to support SDN experiments over Mininet emulator and distributed testbeds. Mantoo is a result of the [DREAMER project](http://netgroup.uniroma2.it/DREAMER/).
 
 Addtional documentation is available at http://netgroup.uniroma2.it/OSHI/ .
 
