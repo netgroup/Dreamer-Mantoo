@@ -7,3 +7,9 @@
 [submodule "Dreamer-Experiment-Handler"]
 	path = Dreamer-Experiment-Handler
 	url = https://github.com/netgroup/Dreamer-Experiment-Handler.git
+[submodule "Dreamer-Measurements-Tools"]
+	path = Dreamer-Measurements-Tools
+	url = https://github.com/netgroup/Dreamer-Measurements-Tools
+[submodule "Dreamer-Management-Scripts"]
+	path = Dreamer-Management-Scripts
+	url = https://github.com/netgroup/Dreamer-Management-Scripts
