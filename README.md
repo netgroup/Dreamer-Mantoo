@@ -1,4 +1,4 @@
-![Alt text](repo_data/dreamer-oshi-logo.png "Optional title")
+![Alt text](https://www.dropbox.com/s/zdatnzm0o9eqfq2/dreamer-oshi-logo.png?dl=1 "Optional title")
 
 Dreamer-Mantoo
 ===================
