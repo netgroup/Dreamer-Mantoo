@@ -7,12 +7,15 @@ Overview
 -----------
 **Mantoo** is a set of Open Source tools meant to support SDN experiments over Mininet emulator and distributed testbeds. Mantoo is a result of the [DREAMER project](http://netgroup.uniroma2.it/DREAMER/).
 
-Mantoo includes 5 components:  
-1) Topology3D - an extensible web-based graphical topology designer providing different layered network “views”  
-2) Topology and Service Validator -a server-side component to validate topologies  
-3) Setup-Scripts - Scripts to install and configure an OSHI testbed on distributed experimental facilities like GOFF and OFELIA  
-4) Measurements Tools - Running iperf experiments on OSHI testbeds and collecting CPU load of your VMs thanks to xentop tool  
-5) Experiment-Handler - Controlling emulated SDN testbeds via a web GUI
+Mantoo includes a number of components:  
+
+* Topology3D - an extensible web-based graphical topology designer providing different layered network “views”  
+* Topology and Service Validator -a server-side component to validate topologies 
+* Experiment-Handler - Controlling emulated SDN testbeds via a web GUI
+* Testbed Deployer - Producing the testbed configuration files to be used by the Management Scripts
+* Management Scripts - Scripts to install and configure an OSHI testbed on distributed experimental facilities like GOFF and OFELIA  
+* Mininet Extensions - Emulating OSHI networks using Mininet
+* Measurements Tools - Running iperf experiments on OSHI testbeds and collecting CPU load of your VMs thanks to xentop tool  
 
 Addtional documentation is available at http://netgroup.uniroma2.it/OSHI/ .
 
