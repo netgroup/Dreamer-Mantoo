@@ -1,4 +1,4 @@
-![Alt text](https://www.dropbox.com/s/zdatnzm0o9eqfq2/dreamer-oshi-logo.png?dl=1 "Optional title")
+![OSHI and DREAMER logos](http://netgroup.uniroma2.it/twiki/pub/Oshi/WebHome/dreamer-oshi-logo-github.png "Optional title")
 
 Dreamer-Mantoo
 ===================
