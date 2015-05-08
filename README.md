@@ -1,4 +1,4 @@
-![OSHI and DREAMER logos](http://netgroup.uniroma2.it/twiki/pub/Oshi/WebHome/dreamer-oshi-logo-github.png "Optional title")
+![OSHI and DREAMER logos](http://netgroup.uniroma2.it/twiki/pub/Oshi/WebHome/dreamer-oshi-logo-github.png "http://netgroup.uniroma2.it/OSHI")
 
 Dreamer-Mantoo
 ===================
@@ -7,24 +7,34 @@ Overview
 -----------
 **Mantoo** is a set of Open Source tools meant to support SDN experiments over Mininet emulator and distributed testbeds. Mantoo is a result of the [DREAMER project](http://netgroup.uniroma2.it/DREAMER/).
 
+Mantoo includes 5 components:  
+1) Topology3D - an extensible web-based graphical topology designer providing different layered network “views”  
+2) Topology and Service Validator -a server-side component to validate topologies  
+3) Setup-Scripts - Scripts to install and configure an OSHI testbed on distributed experimental facilities like GOFF and OFELIA  
+4) Measurements Tools - Running iperf experiments on OSHI testbeds and collecting CPU load of your VMs thanks to xentop tool  
+5) Experiment-Handler - Controlling emulated SDN testbeds via a web GUI
+
 Addtional documentation is available at http://netgroup.uniroma2.it/OSHI/ .
 
 ----------------------------------
 Getting Started
 ---------------------
-Assuming git installed:
+
+(We assume that you have git installed!)
+
+If you pass ```--recursive``` to the ```git clone``` command, it will automatically initialize and update each component (submodule) in the repository:
+
+```sh
+$ git clone --recursive https://github.com/netgroup/Dreamer-Mantoo.git
+```
+Otherwise you will have to update the components manually:
 
 ```sh
 $ git clone https://github.com/netgroup/Dreamer-Mantoo.git
 ```
-By default you get the directories that contain submodules, but none of the files within them yet, to obtain a single submodule  (for example, the Topology 3D):
+You get the directories that contain the submodules, but none of the files within them yet, to obtain a single submodule  (for example, the Topology 3D):
 ```sh
 $ cd Topology3D
 $ git submodule init
 $ git submodule update
-```
-If you pass ```--recursive``` to the ```git clone``` command, it will automatically initialize and update each submodule in the repository:
-
-```sh
-$ git clone --recursive https://github.com/netgroup/Dreamer-Mantoo.git
 ```
