@@ -13,3 +13,9 @@
 [submodule "Dreamer-Management-Scripts"]
 	path = Dreamer-Management-Scripts
 	url = https://github.com/netgroup/Dreamer-Management-Scripts
+[submodule "Dreamer-Testbed-Deployer"]
+	path = Dreamer-Testbed-Deployer
+	url = https://github.com/netgroup/Dreamer-Testbed-Deployer.git
+[submodule "Dreamer-Mininet-Extensions"]
+	path = Dreamer-Mininet-Extensions
+	url = https://github.com/netgroup/Dreamer-Mininet-Extensions.git
