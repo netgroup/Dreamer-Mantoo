@@ -1,4 +1,4 @@
-![OSHI and DREAMER logos](http://netgroup.uniroma2.it/twiki/pub/Oshi/WebHome/dreamer-oshi-logo-github.png "http://netgroup.uniroma2.it/OSHI")
+![OSHI and DREAMER logos](http://netgroup.uniroma2.it/twiki/pub/Oshi/WebHome/dreamer-oshi-logo-github-2.png "http://netgroup.uniroma2.it/OSHI")
 
 Dreamer-Mantoo
 ===================
@@ -10,7 +10,7 @@ Overview
 Mantoo includes a number of components:  
 
 * Topology3D - an extensible web-based graphical topology designer providing different layered network “views”  
-* Topology and Service Validator -a server-side component to validate topologies 
+* Topology and Service Validator - A server-side component to validate topologies 
 * Experiment-Handler - Controlling emulated SDN testbeds via a web GUI
 * Testbed Deployer - Producing the testbed configuration files to be used by the Management Scripts
 * Management Scripts - Scripts to install and configure an OSHI testbed on distributed experimental facilities like GOFF and OFELIA  
