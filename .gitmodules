@@ -19,3 +19,6 @@
 [submodule "Dreamer-Mininet-Extensions"]
 	path = Dreamer-Mininet-Extensions
 	url = https://github.com/netgroup/Dreamer-Mininet-Extensions.git
+[submodule "Dreamer-Topology-Parser"]
+	path = Dreamer-Topology-Parser
+	url = https://github.com/netgroup/Dreamer-Topology-Parser
