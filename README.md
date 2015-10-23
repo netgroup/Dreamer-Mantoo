@@ -23,7 +23,11 @@ Addtional documentation is available at http://netgroup.uniroma2.it/OSHI/ .
 Getting Started
 ---------------------
 
-(We assume that you have git installed!)
+The simplest way to get started is to dowload the ready-to-go Virtual Machine available in the "Software Download" section of the OSHI home page: http://netgroup.uniroma2.it/OSHI/
+
+The ready-to-go VM includes a script to synchronize with the latest changes of all Github repositories.
+
+If you want to download all repositories in your machine, the instruction follow hereafter (we assume that you have git installed!)
 
 If you pass ```--recursive``` to the ```git clone``` command, it will automatically initialize and update each component (submodule) in the repository:
 
@@ -41,3 +45,33 @@ $ cd Topology3D
 $ git submodule init
 $ git submodule update
 ```
+
+----------------------------------
+Adding new models or extending existin modules
+---------------------
+
+1) the logic related to a model (e.g. node properties and constraints) can be found
+Dreamer-Topology-and-Service-Validator/TopologyDjango/lib/TopoModels/oshi/model.py
+
+e.g. you will find oshi.py and openflow.py for the two models that are currently defined
+
+2) the corresponding js files that deal with the model representation in the GUI are:
+
+2.1)
+in Dreamer-Topology3D/js/src/index.js
+the function:
+my_graph_editor.addListener("update_infobox", function(a, args) {
+deals with the visualization and update of nodes and links properties in the left panel of the GUI
+
+2.2)
+Dreamer-Topology3D/js/src/domaincontroller/model.js
+e.g. oshi.js and openflow.js
+
+2.3)
+in Dreamer-Topology3D/js/src/graph_editor.js
+the list of active models is defined as follows
+var modelToController = {
+"oshi": "Oshi",
+"openflow": "OpenFlow"
+}
+
