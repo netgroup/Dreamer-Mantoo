@@ -47,31 +47,9 @@ $ git submodule update
 ```
 
 ----------------------------------
-Adding new models or extending existin modules
+Adding new models or extending existing modules
 ---------------------
 
-1) the logic related to a model (e.g. node properties and constraints) can be found
-Dreamer-Topology-and-Service-Validator/TopologyDjango/lib/TopoModels/oshi/model.py
-
-e.g. you will find oshi.py and openflow.py for the two models that are currently defined
-
-2) the corresponding js files that deal with the model representation in the GUI are:
-
-2.1)
-in Dreamer-Topology3D/js/src/index.js
-the function:
-my_graph_editor.addListener("update_infobox", function(a, args) {
-deals with the visualization and update of nodes and links properties in the left panel of the GUI
-
-2.2)
-Dreamer-Topology3D/js/src/domaincontroller/model.js
-e.g. oshi.js and openflow.js
-
-2.3)
-in Dreamer-Topology3D/js/src/graph_editor.js
-the list of active models is defined as follows
-var modelToController = {
-"oshi": "Oshi",
-"openflow": "OpenFlow"
-}
+See developer documentation of Topology3D in
+https://github.com/netgroup/Dreamer-Topology3D/blob/master/README.md
 
